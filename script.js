@@ -36,7 +36,7 @@ function multiplicar(){
 
     const total = numA * numB;
 
-     document.getElementById("resultado").innerText = `total: ${total}`;
+     document.getElementById("resultado").innerText = `${total}`;
     console.log(`Cálculo efetuado: ${numero1}* ${numero2} = ${total}`);
 }
 
@@ -50,7 +50,7 @@ function dividir (){
 
     const total = numA / numB;
 
-     document.getElementById("resultado").innerText = `total: ${total}`;
+     document.getElementById("resultado").innerText = `${total}`;
     console.log(`Cálculo efetuado: ${numero1}/ ${numero2} = ${total}`);
 }
 
@@ -59,5 +59,5 @@ function limpar(){
     const numero2 = document.getElementById("numero2").value="";
 
      document.getElementById("resultado").innerText ="0";
-    console.log(`Cálculo efetuado: ${numero1}* ${numero2} = ${total}`);
+    console.log("Campos da calculadora reiniciados.");
 }
