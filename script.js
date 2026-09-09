@@ -8,7 +8,7 @@ function somar (){
 
     const total = numA + numB;
 
-    document.getElementById("resultado").innerText = `total: ${total}`;
+    document.getElementById("resultado").innerText = ` ${total}`;
     console.log(`Cálculo efetuado: ${numero1}+ ${numero2} = ${total}`);
 }
 
@@ -22,7 +22,7 @@ function subtrair (){
 
     const total = numA - numB;
 
-     document.getElementById("resultado").innerText = `total: ${total}`;
+     document.getElementById("resultado").innerText = `${total}`;
     console.log(`Cálculo efetuado: ${numero1}- ${numero2} = ${total}`);
 }
 
